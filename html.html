@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=""><b>MIKA.CAMERA</b></a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#kamera">Kamera</a></li>
+                    <li><a href="#pesan">Pesan</a></li>
+                    <li><a href="https://wa.me/6283893345226" class="tblbiru">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <h1>Selamat Datang di Rental Kamera Mika</h1>
+        <p><b>Temukan dan sewa kamera terbaik untuk kebutuhan Anda!</b></p>
+    </header>
+
+    <div class="jenis label textbold">
+        <h2>Daftar kamera</h2>
+    </div>
+
+    <main>
+        <section id="kamera" class="card">
+            <img src="cam.jpeg" alt="JOGCAM" >
+            <p class="textbold label">Canon EOS R5</p>
+            <ul>
+                <li>Sensor: 45MP Full-frame CMOS</li>
+                <li>ISO: 100-51200 (expandable to 102400)</li>
+                <li>Video: 8K up to 30p, 4K up to 120p</li>
+                <li>AF System: Dual Pixel CMOS AF II</li>
+                <li>Stabilization: In-body Image Stabilization (IBIS)</li>
+            </ul>
+            <p class="textbold label">Rp.240.000/hari</p>
+        </section>
+
+        <section id="kamera" class="card">
+            <img src="nikon.jpg" alt="JOGCAM" >
+            <p class="textbold label">Nikon Z7 II</p>
+            <ul>
+                <li>Sensor: 45.7MP Full-frame BSI CMOS</li>
+                <li>ISO: 64-25600 (expandable to 102400)</li>
+                <li>Video: 4K UHD up to 60p</li>
+                <li>AAF System: Hybrid AF with 493 points</li>
+                <li>Stabilization: In-body Image Stabilization (IBIS)
+                </li>
+            </ul>
+            <p class="textbold label">Rp.360.000/hari</p>
+        </section>
+
+        <section id="kamera" class="card">
+            <img src="sony.jpeg" alt="JOGCAM" >
+            <p class="textbold label">Sony Alpha a7R IV</p>
+            <ul>
+                <li>Sensor: 61MP Full-frame Exmor R CMOS</li>
+                <li>ISO: 100-32000 (expandable to 50-102400)</li>
+                <li>Video: 4K up to 30p</li>
+                <li>AF System: Fast Hybrid AF with 567 phase-detection points</li>
+                <li>Stabilization: 5-axis In-body Image Stabilization (IBIS)</li>
+            </ul>
+            <p class="textbold label">Rp.480.000/hari</p>
+        </section>
+
+        <section id="kamera" class="card">
+            <img src="fujifilm.jpeg" alt="JOGCAM" >
+            <p class="textbold label">Fujifilm X-T4</p>
+            <ul>
+                <li>Sensor: 26.1MP APS-C X-Trans BSI CMOS 4</li>
+                <li>ISO: 160-12800 (expandable to 80-51200)</li>
+                <li>Video: 4K DCI/UHD up to 60p</li>
+                <li>AF System: Hybrid AF with 425 points</li>
+                <li>Stabilization: In-body Image Stabilization (IBIS)</li>
+            </ul>
+            <p class="textbold label">Rp.288.000/hari</p>
+        </section>
+
+        <section id="kamera" class="card">
+            <img src="lumix.jpeg" alt="JOGCAM" >
+            <p class="textbold label">Panasonic Lumix S1R</p>
+            <ul>
+                <li>Sensor: 47.3MP Full-frame CMOS</li>
+                <li>ISO: 100-25600 (expandable to 51200)</li>
+                <li>ISO: 100-25600 (expandable to 51200)</li>
+                <li>AF System: Contrast Detect with Depth From Defocus (DFD)</li>
+                <li>Stabilization: 5-axis In-body Image Stabilization (IBIS)</li>
+            </ul>
+            <p class="textbold label">Rp.432.000/hari</p>
+        </section>
+
+        <section id="kamera" class="card">
+            <img src="olympus.jpeg" alt="JOGCAM" >
+            <p class="textbold label">Olympus OM-D E-M1 Mark III</p>
+            <ul>
+                <li>Sensor: 20.4MP Four Thirds Live MOS</li>
+                <li>ISO: 200-25600 (expandable to 64-25600)</li>
+                <li>Video: 4K DCI/UHD up to 30p</li>
+                <li>AF System: Dual FAST AF with 121 phase-detection points</li>
+                <li>Stabilization: 5-axis In-body Image Stabilization (IBIS)</li>
+            </ul>
+            <p class="textbold label">Rp.336.000/hari</p>
+        </section>
+    </main>
+
+    <section id="pesan" class="pesanan">
+        <h2>Pesan Kamera</h2>
+        <form id="order-form">
+            <label for="camera">Pilih Kamera</label>
+            <select name="camera" id="camera">
+                <option value="camera1">pilih</option>
+                <option value="Canon EOS R5">Canon EOS R5</option>
+                <option value="Nikon Z7 II">Nikon Z7 II</option>
+                <option value="Sony Alpha a7R IV">Sony Alpha a7R IV</option>
+                <option value="Fujifilm X-T4">Fujifilm X-T4</option>
+                <option value="Panasonic Lumix S1R">Panasonic Lumix S1R</option>
+                <option value="Olympus OM-D E-M1 Mark III">Olympus OM-D E-M1 Mark III</option>
+            </select>
+
+            <label for="duration">Durasi Sewa (per hari)</label>
+            <input type="number" id="duration" name="duration" min="1" required>
+
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Pesan Sekarang</button>
+            
+        </form>
+
+    <div align="center" class="geser">
+      <strong><a href="lihat.php" class="tblbiru">::Lihat Detail Pesanan::</a></strong>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rental Kamera JOGCAM</p>
+    </footer>
+
+</body>
+</html>
